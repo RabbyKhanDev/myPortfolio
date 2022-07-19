@@ -108,7 +108,24 @@ html {
     box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
     z-index: 10;
 }
-
+.certifications{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    left: 15px;
+    bottom: 25px;
+}
+.web-design-img{
+    width: 220px;
+    margin-top: 25px;
+    margin-left: -210px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.certificate-name{
+    margin: none;
+    padding-left: 20px;
+}
 .nav-list {
     display: flex;
 }
