@@ -109,16 +109,21 @@ html {
     z-index: 10;
 }
 .certifications{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     position: absolute;
     left: 15px;
     bottom: 25px;
 }
-.web-design-img{
+.certification-heading {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 25px;
+}
+.web-design-img {
     width: 220px;
     margin-top: 25px;
     margin-left: -210px;
+    margin-right: 20px;
     padding-bottom: 20px;
     cursor: pointer;
 }
