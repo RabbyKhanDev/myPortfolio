@@ -110,6 +110,7 @@ html {
 }
 .certifications{
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     left: 15px;
     bottom: 25px;
