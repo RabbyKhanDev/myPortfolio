@@ -117,6 +117,10 @@ html {
 .intro_details {
     margin-right: 12px;
 }
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
 .welcome-section {
     display: flex;
     flex-direction: column;
@@ -139,6 +143,7 @@ html {
 
 .certifications{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
     left: 15px;
