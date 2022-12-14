@@ -60,12 +60,7 @@ body {
     display: block;
     margin: 8px;
 }
-:root {
-    --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d;
-    --main-gray: #303841;
-}
+
 html {
     text-shadow: 0 0 0 !important;
 }
@@ -117,10 +112,7 @@ html {
 .intro_details {
     margin-right: 12px;
 }
-.main-section {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .welcome-section {
     display: flex;
     flex-direction: column;
@@ -130,6 +122,7 @@ html {
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
+
 
 .introductions {
     display: flex;
@@ -141,32 +134,7 @@ html {
     margin-top: -30%;
 }
 
-.certifications{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 15px;
-    bottom: 25px;
-}
-.certification-heading {
-    position: absolute;
-    left: 2%;
-    top: 55%;
-}
 
-.web-design-img {
-    width: 220px;
-    margin-top: 25px;
-    margin-left: -210px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    cursor: pointer;
-}
-.certificate-name{
-    margin: none;
-    padding-left: 20px;
-}
 .nav-list {
     display: flex;
 }
@@ -312,6 +280,7 @@ p {
 }
 
 /* Responsiveness for all devices code */
+
 @media (max-width: 280px) {
     .contact-links {
         grid-template-columns: 1fr;
