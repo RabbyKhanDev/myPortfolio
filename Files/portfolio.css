@@ -85,13 +85,7 @@ html {
 .projects-section-header {
     margin-bottom: 30px;
 }
-#navbar{
-    height: 66px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+
 .nav {
     display: flex;
     justify-content: end;
@@ -191,12 +185,13 @@ a {
     cursor: pointer;
     border: none;
 }
-a:hover{
+.active, a:hover{
     background-color: var(--main-red);
 }
 button{
     border-style: none;
 }
+
 .btn {
     padding: 25px ;
     border-radius: 2px;
@@ -205,13 +200,19 @@ button{
     background-color: var(--main-red);
     cursor: pointer;
 }
-.btn:hover{
-    background-color:  var(--main-gray);
-    color: var(--main-red);
-}
-.btn:active {
+
+.active, .btn:hover {
     background: #181719;
     color: var(--main-red);
+}
+
+#myDIV{
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--main-red);
 }
 
 .project {
