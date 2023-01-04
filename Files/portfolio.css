@@ -194,8 +194,8 @@ button{
 
 .btn {
     padding: 25px ;
-    border-radius: 2px;
-    font-weight: 700;
+    border-radius: none;
+    font-weight: bold;
     color: var(--main-white);
     background-color: var(--main-red);
     cursor: pointer;
