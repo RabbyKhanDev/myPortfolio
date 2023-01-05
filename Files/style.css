@@ -132,12 +132,14 @@ html {
 
 .introductions {
   display: flex;
+  flex: 0.5;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--main-red);
   border-radius: 5px;
-  margin-top: -30%;
+  margin-top: -20%;
+  max-width: 800px;
 }
 
 .Certification_Header {
