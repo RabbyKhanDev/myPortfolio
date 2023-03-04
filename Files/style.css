@@ -133,7 +133,6 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--main-red);
   border-radius: 5px;
   margin: 55px 15px 15px 15px;
 }
